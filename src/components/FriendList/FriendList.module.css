@@ -1,0 +1,21 @@
+.friendItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.onLine {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offLine {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
