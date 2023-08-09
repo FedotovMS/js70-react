@@ -1,0 +1,49 @@
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: ghostwhite;
+  width: fit-content;
+  padding: 32px;
+  margin-bottom: 64px;
+  box-shadow: rgb(185, 174, 174) 1px 1px 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  display: block;
+  width: 250px;
+  background-color: azure;
+  border-radius: 50%;
+  padding: 8px;
+  border: 1px solid grey;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: gainsboro;
+  margin-top: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 80px;
+  align-items: center;
+  border: 1px solid blue;
+}
