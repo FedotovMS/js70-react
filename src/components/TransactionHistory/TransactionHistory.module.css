@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+}
+
+.transactionHistory {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 16px rgb(150, 145, 145);
+}
+
+.tableHead {
+  text-align: center;
+  background-color: #0fc4fc96;
+}
+
+.headCell {
+  padding: 30px;
+}
+
+.bodyCell {
+  padding: 8px;
+  text-align: center;
+}
+
+.bodyCell:first-child {
+  text-align: left;
+}
+
+.bodyRow:nth-child(2n) {
+  background-color: #d4cdcd;
+}
